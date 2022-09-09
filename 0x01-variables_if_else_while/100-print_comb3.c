@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Print letters of the alphabet'
+ * Description: 'Print combination of 2 numbers'
  *
  * Return: Always 0 (Success)
  */

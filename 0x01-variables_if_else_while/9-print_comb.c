@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Print numbers 0 to 9'
+ * Description: 'Print numbers 0 to 9 with commas'
  *
  * Return: Always 0 (Success)
  */

@@ -9,12 +9,9 @@
  */
 
 int main(void)
-
 {
 int i, j, k, m, o, n;
-
 i = j = k = m = 48;
-
 while (m < 58)
 {
 	k = 48;
@@ -48,8 +45,6 @@ while (m < 58)
 	}
 	m++;
 }
-
 putchar('\n');
 return (0);
-
 }

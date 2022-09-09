@@ -29,8 +29,8 @@ int main(void)
 				if (e < i && i < o)
 				{
 					putchar(e);
-					putchar(i);
 					putchar(o);
+					putchar(i);
 					if (i == 56 && e == 55 && o == 57)
 					{
 						break;

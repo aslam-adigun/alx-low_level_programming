@@ -18,19 +18,19 @@ int main(void)
 	e = 48;
 	o = 48;
 
-	while (o < 58)
+	while (e < 58)
 	{
-		e = 48;
-		while (e < 58)
+		i = 48;
+		while (i < 58)
 		{
-			i = 48;
-			while (i < 58)
+			o = 48;
+			while (o < 58)
 			{
 				if (e < i && i < o)
 				{
 					putchar(e);
-					putchar(o);
 					putchar(i);
+					putchar(o);
 					if (i == 56 && e == 55 && o == 57)
 					{
 						break;

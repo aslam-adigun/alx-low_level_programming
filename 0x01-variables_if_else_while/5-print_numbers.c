@@ -11,12 +11,12 @@
 int main(void)
 
 {
-	char alp[24] = "abcdfghijklmnoprstuvwxyz";
+	char num[10] = "0123456789";
 	int m;
 
-	for (m = 0; m < 24; m++)
+	for (m = 0; m < 10; m++)
 	{
-		putchar(alp[m]);
+		putchar(num[m]);
 	}
 
 	putchar('\n');

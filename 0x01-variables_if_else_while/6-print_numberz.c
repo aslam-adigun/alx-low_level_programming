@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Print letters of the alphabet'
+ * Description: 'Print numbers 0 to 9'
  *
  * Return: Always 0 (Success)
  */
@@ -13,7 +13,7 @@ int main(void)
 {
 	int m;
 
-	for (m = 0; m < 10; m++)
+	for (m = 17; m < 27; m++)
 	{
 		putchar(m);
 	}

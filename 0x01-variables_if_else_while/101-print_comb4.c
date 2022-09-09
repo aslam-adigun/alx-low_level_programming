@@ -38,11 +38,11 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-				i++;
+				o++;
 			}
-			e++;
+			i++;
 		}
-		o++;
+		e++;
 	}
 
 	putchar('\n');

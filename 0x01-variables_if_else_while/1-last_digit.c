@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: 'print whether a number is negative, positive or zero'
+ * Description: 'print whether a number is >5 | 0 | <6'
  *
  * Return: Always 0 (Success)
  */

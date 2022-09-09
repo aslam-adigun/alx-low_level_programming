@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Print letters of the alphabet'
+ * Description: 'Print letters of the alphabet excluding e & q'
  *
  * Return: Always 0 (Success)
  */

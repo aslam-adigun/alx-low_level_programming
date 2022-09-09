@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'Print numbers 0 - 9'
+ * Description: 'Print all the numbers of base 16 in lowercase'
  *
  * Return: Always 0 (Success)
  */
@@ -11,12 +11,12 @@
 int main(void)
 
 {
-	char num[10] = "0123456789";
+	char alp[16] = "0123456789abcdef";
 	int m;
 
-	for (m = 0; m < 10; m++)
+	for (m = 0; m < 16; m++)
 	{
-		putchar(num[m]);
+		putchar(alp[m]);
 	}
 
 	putchar('\n');

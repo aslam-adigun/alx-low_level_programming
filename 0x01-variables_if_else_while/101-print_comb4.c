@@ -26,11 +26,12 @@ int main(void)
 			i = 48;
 			while (i < 58)
 			{
-				if (e < i)
+				if (e < i && i < o)
 				{
 					putchar(e);
 					putchar(i);
-					if (i == 57 && e == 56)
+					putchar(o);
+					if (i == 56 && e == 55 && o == 57)
 					{
 						break;
 					}

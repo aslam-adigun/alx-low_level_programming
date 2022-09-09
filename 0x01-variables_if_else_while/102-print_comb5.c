@@ -11,26 +11,45 @@
 int main(void)
 
 {
-	int m, k;
+int i, j, k, m, o, n;
 
-	m = 0;
-	k = 0;
-	while (m < 10)
+i = j = k = m = 48;
+
+while (m < 58)
+{
+	k = 48;
+	while (k < 58)
 	{
-		while (k < 10)
+		j = 48;
+		while (j < 58)
 		{
-			putchar(m);
-			putchar(k);
-			if (m < 9 && k < 9)
+			i = 48;
+			while (i < 58)
 			{
-				putchar(',');
-				putchar(' ');
+				o = (m * 10) + k;
+				n = (j * 10) + i;
+				if (o < n)
+				{
+					putchar(m);
+					putchar(k);
+					putchar(' ');
+					putchar(j);
+					putchar(i);
+					if (m == 57 && k == 56 && j == 57 && i == 57)
+						break;
+					putchar(',');
+					putchar(' ');
+				}
+				i++;
 			}
-			k++;
+			j++;
 		}
-		m++;
+		k++;
 	}
+	m++;
+}
 
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
+
 }

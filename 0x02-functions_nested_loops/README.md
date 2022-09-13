@@ -1,11 +1,11 @@
-# C Variables (if, else, while)
+# C Functions and Nested Loops
 
 
-| `File 1 - 0-positive_or_negative.c` - A program that print whether the number stored in the variable n is positive or negative. |
+| `File 1 - 0-putchar.c` - Prints _putchar. |
 
-| `File 2 - 1-last_digit.c` - A program that print the last digit of the number stored in the variable n. |
+| `File 2 - 1-alphabet.c` - A function that prints the alphabet, in lowercase, followed by a new line. |
 
-| `File 3 - 2-print_alphabet.c` - A program that prints the alphabet in lowercase, followed by a new line. |
+| `File 3 - 2-print_alphabet_x10.c` - A function that prints 10 times the alphabet, in lowercase, followed by a new line. |
 
 | `File 4 - 3-print_alphabets.c` - A program that prints the alphabet in lowercase, and then in uppercase, followed by a new line. |
 

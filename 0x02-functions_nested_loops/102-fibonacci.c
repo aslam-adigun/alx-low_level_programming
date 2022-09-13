@@ -8,15 +8,27 @@
  */
 
 int main(void)
-{
-	int n = 50, f1 = 0, f2 = 1, i, next;
 
-	for (i = 1; i < n; i++)
+{
+	long int a = 0;
+	long int b = 1;
+	long int c = 0;
+	int i;
+
+	printf("%ld, ", b);
+	for (i = 0; i <= 50; i++)
 	{
-		printf("%d ", f2);
-		next = f1 + f2;
-		f1 = f2;
-		f2 = next;
+		a = b;
+		b = c;
+		c = a + b;
+		if (i > 1 && i < 50)
+		{
+			printf("%ld, ", c);
+		}
+		if (i > 1 && i == 50)
+		{
+			printf("%ld\n", c);
+		}
 	}
 	return (0);
 }

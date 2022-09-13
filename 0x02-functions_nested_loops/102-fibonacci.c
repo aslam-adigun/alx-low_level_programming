@@ -9,15 +9,17 @@
 
 int main(void)
 {
-	int a = 1;
-	int b = 1;
+	int n = 50, f1 = 0, f2 = 1, i;
 
-	while (a <= 50)
+	if (n < 1)
+		return;
+	printf("%d ", f1);
+	for (i = 1; i < n; i++)
 	{
-		printf("%d, ", b);
-		b = b + b;
-		a++;
+		printf("%d ", f2);
+		int next = f1 + f2;
+
+		f1 = f2;
+		f2 = next;
 	}
-	printf("\n");
-	return (0);
 }

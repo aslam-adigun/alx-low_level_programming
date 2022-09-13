@@ -10,11 +10,10 @@
 int main(void)
 {
 	int a = 1;
+	int b = 1;
 
 	while (a <= 50)
 	{
-		int b = 1;
-
 		printf("%d, ", b);
 		b = b + b;
 		a++;

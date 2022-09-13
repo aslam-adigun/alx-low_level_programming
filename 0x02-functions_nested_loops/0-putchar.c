@@ -1,14 +1,25 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
  *
  * Description: Print _putchar with a new line
  *
- * Return 0 Always success
+ * Return: 0 Always success
  */
 
-void main(void)
+int main(void)
+
 {
-	printf("_putchar\n");
+	char put[8] = "_putchar";
+	int m;
+
+	for (m = 0; m < 8; m++)
+
+	{
+		putchar(put[m]);
+	}
+	putchar('\n');
+	return (0);
 }

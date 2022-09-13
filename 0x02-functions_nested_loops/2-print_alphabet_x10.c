@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Print alphabets and add a new line
+ * print_alphabet_x10 - Print alphabets ten times and add a new line
  *
  * Return: Always 0 (success)
  */

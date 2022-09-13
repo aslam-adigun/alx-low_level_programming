@@ -23,4 +23,5 @@ int main(void)
 			f2 = next;
 		}
 	}
+	return (0);
 }

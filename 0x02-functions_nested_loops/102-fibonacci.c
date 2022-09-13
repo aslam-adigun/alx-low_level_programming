@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int n = 50, f1 = 0, f2 = 1, i;
+	int n = 50, f1 = 0, f2 = 1, i, next;
 
 	if (n < 1)
 	{
@@ -17,7 +17,7 @@ int main(void)
 		for (i = 1; i < n; i++)
 		{
 			printf("%d ", f2);
-			int next = f1 + f2;
+			next = f1 + f2;
 
 			f1 = f2;
 			f2 = next;

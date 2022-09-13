@@ -6,17 +6,14 @@
  * Return: Always 0 (success)
  */
 
-int main()
+void print_alphabet(void)
 {
-	void print_alphabet(void)
+	int m;
+
+	for (m = 97; m <= 122; m++)
+
 	{
-		int m;
-
-		for (m = 97; m <= 122; m++)
-
-		{
-			_putchar(m);
-		}
-		_putchar('\n');
+		_putchar(m);
 	}
+	_putchar('\n');
 }

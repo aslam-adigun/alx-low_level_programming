@@ -2,22 +2,21 @@
 #include <stdio.h>
 
 /**
- * _strcpy - copies the string pointed to by src
- * @dest: destination pointer
- * @src: source pointer
- * Return: the pointer to dest
+ * print_array - print the n element of an array
+ * @a: pointer 1
+ * @n: pointer 2
+ * Return: no return
  */
 
-char *_strcpy(char *dest, char *src)
+void print_array(int *a, int n)
 {
-	int count = 0;
+	int i = 0;
 
-	while (count >= 0)
+	for (; i < n; i++)
 	{
-		*(dest + count) = *(src + count);
-		if (*(src + count) == '\0')
-			break;
-		count++;
+		printf("%d", *(a + i));
+		if (i != (n - 1))
+			printf(", ");
 	}
-	return (dest);
+	printf("\n");
 }

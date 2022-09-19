@@ -3,7 +3,7 @@
 
 /**
  * print_rev - prints a string in reverse to stdout
- * @s: string pointer
+ * @str: string pointer
  * Return: Always 0 (Success)
  */
 

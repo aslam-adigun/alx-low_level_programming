@@ -6,12 +6,11 @@
 | `File 1 - 1-swap.c` | A function that swaps the values of two integers. |
 | `File 2 - 2-strlen.c` | A function that returns the length of a string. |
 | `File 3 - 3-puts.c` | A function that prints a string, followed by a new line, to stdout. |
-| `File 4 - 4-print_most_numbers.c` | function that prints the numbers, from 0 to 9, followed by a new line. |
-| `File 5 - 5-more_numbers.c` | A function that prints 10 times the numbers, from 0 to 14, followed by a new line. |
-| `File 6 - 6-print_line.c` | A function that draws a straight line in the terminal. |
-| `File 7 - 7-print_diagonal.c` | function that draws a diagonal line on the terminal. |
-| `File 8 - 8-print_square.c` | A function that prints a square, followed by a new line. |
-| `File 9 - 9-fizz_buzz.c` | A program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz. |
-| `File 10 - 10-print_triangle.c` | A function that prints a triangle, followed by a new line. |
-| `File 11 - 100-prime_factor.c` | A program that finds and prints the largest prime factor of the number `612852475143`, followed by a new line. |
-| `File 12 - 101-print_number.c` | A function that prints an integer. |
+| `File 4 - 4-print_rev.c` | A function that prints a string, in reverse, followed by a new line. |
+| `File 5 - 5-rev_string.c` | A function that reverses a string. |
+| `File 6 - 6-puts2.c` | A function that prints every other character of a string, starting with the first character, followed by a new line. |
+| `File 7 - 7-puts_half.c` | A function that prints half of a string, followed by a new line. |
+| `File 8 - 8-print_array.c` | A function that prints n elements of an array of integers, followed by a new line. |
+| `File 9 - 9-strcpy.c` | A function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest. |
+| `File 10 - 100-atoi.c` | A function that convert a string to an integer. |
+| `File 11 - 101-keygen.c` | A program that generates random valid passwords for the program 101-crackme. |

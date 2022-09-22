@@ -2,10 +2,10 @@
 
 | Project name | Description |
 | ------------ | ----------- |
-| `File 0 - 0-isupper.c` | function that checks for uppercase character. |
-| `File 1 - 1-isdigit.c` | A function that checks for a digit (0 through 9). |
-| `File 2 - 2-mul.c` | A function that multiplies two integers. |
-| `File 3 - 3-print_numbers.c` | A function that prints the numbers, from 0 to 9, followed by a new line. |
+| `File 0 - 0-reset_to_98.c` | A function that takes a pointer to an int as parameter and updates the value it points to to 98. |
+| `File 1 - 1-swap.c` | A function that swaps the values of two integers. |
+| `File 2 - 2-strlen.c` | A function that returns the length of a string. |
+| `File 3 - 3-puts.c` | A function that prints a string, followed by a new line, to stdout. |
 | `File 4 - 4-print_most_numbers.c` | function that prints the numbers, from 0 to 9, followed by a new line. |
 | `File 5 - 5-more_numbers.c` | A function that prints 10 times the numbers, from 0 to 14, followed by a new line. |
 | `File 6 - 6-print_line.c` | A function that draws a straight line in the terminal. |

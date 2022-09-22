@@ -1,26 +1,43 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * _strcat - concatenates two strings,
- * @dest: destination.
- * @src: source.
- * Return: the pointer to dest.
+ * print_buffer - prints a buffer
+ * @b: buffer.
+ * @size: size of buffer.
+ * Return: no return.
  */
-char *_strcat(char *dest, char *src)
+void print_buffer(char *b, int size)
 {
-	int count = 0, count2 = 0;
+	int j, k, l;
 
-	while (*(dest + count) != '\0')
+	if (size <= 0)
+		printf("\n");
+	else
 	{
-		count++;
+		for (j = 0; j < size; j += 10)
+		{
+			printf("%.8x:", j);
+			for (k = j; k < j + 10; k++)
+			{
+				if (k % 2 == 0)
+					printf(" ");
+				if (k < size)
+					printf("%.2x", *(b + k));
+				else
+					printf("  ");
+			}
+			printf(" ");
+			for (l = j; l < j + 10; l++)
+			{
+				if (l >= size)
+					break;
+				if (*(b + l) < 32 || *(b + l) > 126)
+					printf("%c", '.');
+				else
+					printf("%c", *(b + l));
+			}
+			printf("\n");
+		}
 	}
-
-	while (count2 >= 0)
-	{
-		*(dest + count) = *(src + count2);
-		if (*(src + count2) == '\0')
-			break;
-		count++;
-		count2++;
-	}
-	return (dest);
 }

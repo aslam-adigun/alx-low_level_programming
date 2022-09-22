@@ -1,26 +1,34 @@
 #include "main.h"
 /**
- * _strcat - concatenates two strings,
- * @dest: destination.
- * @src: source.
- * Return: the pointer to dest.
+ * print_number - prints an integer.
+ * @n: input integer.
+ * Return: no return.
  */
-char *_strcat(char *dest, char *src)
+void print_number(int n)
 {
-	int count = 0, count2 = 0;
+	unsigned int m, d, count;
 
-	while (*(dest + count) != '\0')
+	if (n < 0)
 	{
-		count++;
+		_putchar(45);
+		m = n * -1;
+	}
+	else
+	{
+		m = n;
 	}
 
-	while (count2 >= 0)
+	d = m;
+	count = 1;
+
+	while (d > 9)
 	{
-		*(dest + count) = *(src + count2);
-		if (*(src + count2) == '\0')
-			break;
-		count++;
-		count2++;
+		d /= 10;
+		count *= 10;
 	}
-	return (dest);
+
+	for (; count >= 1; count /= 10)
+	{
+		_putchar(((m / count) % 10) + 48);
+	}
 }

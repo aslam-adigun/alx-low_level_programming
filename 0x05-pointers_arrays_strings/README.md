@@ -1,4 +1,4 @@
-## C - More functions, more nested loops
+## C - Pointers, Arrays, Strings
 
 | Project name | Description |
 | ------------ | ----------- |

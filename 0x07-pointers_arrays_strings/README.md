@@ -10,5 +10,5 @@
 | `File 5 - 5-strstr.c` | A function that locates a substring. |
 | `File 6 - 7-print_chessboard.c` | A function that prints the chessboard. |
 | `File 7 - 8-print_diagsums.c` | A function that prints the sum of the two diagonals of a square matrix of integers. |
-| `File 8 - 100-rot13.c` | A function that encodes a string using rot13. |
-| `File 9 - 101-print_number.c` | A function that prints an integer. |
+| `File 8 - 100-set_string.c` | A function that sets the value of a pointer to a char. |
+| `File 9 - 101-crackme_password` | A file that contains the password for the crackme2 executable. |

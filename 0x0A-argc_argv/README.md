@@ -7,4 +7,4 @@
 | `File 2 - 2-args.c` | A program that prints all arguments it receives. |
 | `File 3 - 3-mul.c` | A program that multiplies two numbers. |
 | `File 4 - 4-add.c` | A program that adds positive numbers. |
-| `File 5 - 5-strstr.c` | A function that locates a substring. |
+| `File 5 - 100-change.c` | A program that prints the minimum number of coins to make change for an amount of money. |

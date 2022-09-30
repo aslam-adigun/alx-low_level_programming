@@ -1,4 +1,4 @@
-## C - More Pointers, Arrays, Strings
+## C - Recursion
 
 | Project name | Description |
 | ------------ | ----------- |

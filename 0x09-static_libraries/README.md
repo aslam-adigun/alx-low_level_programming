@@ -1,13 +1,6 @@
-## C - More Pointers, Arrays, Strings
+## C - Static libraries
 
 | Project name | Description |
 | ------------ | ----------- |
-| `File 0 - 0-puts_recursion.c` | A function that prints a string, followed by a new line. |
-| `File 1 - 1-print_rev_recursion.c` | A function that prints a string in reverse. |
-| `File 2 - 2-strlen_recursion.c` | A function that returns the length of a string. |
-| `File 3 - 3-factorial.c` | A function that returns the factorial of a given number. |
-| `File 4 - 4-pow_recursion.c` | A function that returns the value of x raised to the power of y. |
-| `File 5 - 5-sqrt_recursion.c` | A function that returns the natural square root of a number. |
-| `File 6 - 6-is_prime_number.c` | A function that returns 1 if the input integer is a prime number, otherwise return 0. |
-| `File 7 - 100-is_palindrome.c` | A function that returns 1 if a string is a palindrome and 0 if not. |
-| `File 8 - 101-wildcmp.c` | A function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. |
+| `File 0 - libmy.a` | A static library containing various functions. |
+| `File 1 - create_static_lib.sh` | A script called `create_static_lib.sh` that creates a static library called `liball.a` from all the .c files that are in the current directory. |

@@ -1,4 +1,4 @@
-## C - More Pointers, Arrays, Strings
+## C - argc, argv
 
 | Project name | Description |
 | ------------ | ----------- |

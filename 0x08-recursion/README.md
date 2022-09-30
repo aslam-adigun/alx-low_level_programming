@@ -2,13 +2,12 @@
 
 | Project name | Description |
 | ------------ | ----------- |
-| `File 0 - 0-memset.c` | A function that fills memory with a constant byte. |
-| `File 1 - 1-memcpy.c` | A function that copies memory area. |
-| `File 2 - 2-strchr.c` | A function that locates a character in a string. |
-| `File 3 - 3-strspn.c` | A function that gets the length of a prefix substring. |
-| `File 4 - 4-strpbrk.c` | A function that searches a string for any of a set of bytes. |
-| `File 5 - 5-strstr.c` | A function that locates a substring. |
-| `File 6 - 7-print_chessboard.c` | A function that prints the chessboard. |
-| `File 7 - 8-print_diagsums.c` | A function that prints the sum of the two diagonals of a square matrix of integers. |
-| `File 8 - 100-set_string.c` | A function that sets the value of a pointer to a char. |
-| `File 9 - 101-crackme_password` | A file that contains the password for the crackme2 executable. |
+| `File 0 - 0-puts_recursion.c` | A function that prints a string, followed by a new line. |
+| `File 1 - 1-print_rev_recursion.c` | A function that prints a string in reverse. |
+| `File 2 - 2-strlen_recursion.c` | A function that returns the length of a string. |
+| `File 3 - 3-factorial.c` | A function that returns the factorial of a given number. |
+| `File 4 - 4-pow_recursion.c` | A function that returns the value of x raised to the power of y. |
+| `File 5 - 5-sqrt_recursion.c` | A function that returns the natural square root of a number. |
+| `File 6 - 6-is_prime_number.c` | A function that returns 1 if the input integer is a prime number, otherwise return 0. |
+| `File 7 - 100-is_palindrome.c` | A function that returns 1 if a string is a palindrome and 0 if not. |
+| `File 8 - 101-wildcmp.c` | A function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. |

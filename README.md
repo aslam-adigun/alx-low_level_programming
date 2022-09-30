@@ -16,3 +16,5 @@ All of the following folders are projects done during the studies:
 | [`0x06-pointers_arrays_strings`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings) | It aims to learn about pointers and arrays in **C language** |
 | [`0x07-pointers_arrays_strings`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) | It aims to learn about pointers and arrays in **C language** |
 | [`0x08-recursion`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x08-recursion) | It aims to learn about recursion in **C language** |
+| [`0x0A-argc_argv`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x0A-argc_argv) | It aims to learn about argc&argv in **C language** |
+| [`0x09-static_libraries`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x09-static_libraries) | It aims to learn about Static libraries in **C language** |

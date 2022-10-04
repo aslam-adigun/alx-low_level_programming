@@ -1,4 +1,4 @@
-## C - argc, argv
+## C - malloc, free
 
 | Project name | Description |
 | ------------ | ----------- |

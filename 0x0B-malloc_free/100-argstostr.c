@@ -1,27 +1,52 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
- * create_array - creates an array of chars.
- * @size: size of the array.
- * @c: storaged char
+ * argstostr - concatenates all the arguments of a program.
+ * @ac: argument count.
+ * @av: argument vector.
  *
- * Return: pointer of an array of chars
+ * Return: pointer of an array of char
  */
-char *create_array(unsigned int size, char c)
+char *argstostr(int ac, char **av)
 {
-	char *cr;
-	unsigned int i;
+	char *aout;
+	int c, i, j, ia;
 
-	if (size == 0)
+	if (ac == 0)
 		return (NULL);
 
-	cr = malloc(sizeof(c) * size);
+	for (c = i = 0; i < ac; i++)
+	{
+		if (av[i] == NULL)
+			return (NULL);
 
-	if (cr == NULL)
+		for (j = 0; av[i][j] != '\0'; j++)
+			c++;
+		c++;
+	}
+
+	aout = malloc((c + 1) * sizeof(char));
+
+	if (aout == NULL)
+	{
+		free(aout);
 		return (NULL);
+	}
 
-	for (i = 0; i < size; i++)
-		cr[i] = c;
+	for (i = j = ia = 0; ia < c; j++, ia++)
+	{
+		if (av[i][j] == '\0')
+		{
+			aout[ia] = '\n';
+			i++;
+			ia++;
+			j = 0;
+		}
+		if (ia < c - 1)
+			aout[ia] = av[i][j];
+	}
+	aout[ia] = '\0';
 
-	return (cr);
+	return (aout);
 }

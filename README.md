@@ -18,3 +18,4 @@ All of the following folders are projects done during the studies:
 | [`0x08-recursion`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x08-recursion) | It aims to learn about recursion in **C language** |
 | [`0x0A-argc_argv`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x0A-argc_argv) | It aims to learn about argc&argv in **C language** |
 | [`0x09-static_libraries`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x09-static_libraries) | It aims to learn about Static libraries in **C language** |
+| [`0x0B-malloc_free`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x0B-malloc_free) | It aims to learn about Malloc & Free in **C language** |

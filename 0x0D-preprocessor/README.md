@@ -2,9 +2,8 @@
 
 | Project name | Description |
 | ------------ | ----------- |
-| `File 0 - 0-malloc_checked.c` | A function that allocates memory using `malloc.` |
-| `File 1 - 1-string_nconcat.c` | A function that concatenates two strings. |
-| `File 2 - 2-calloc.c` | A function that allocates memory for an array, using `malloc.` |
-| `File 3 - 3-array_range.c` | A function that creates an array of integers. |
-| `File 4 - 100-realloc.c` | A function that reallocates a memory block using `malloc` and `free.` |
-| `File 5 - 101-mul.c` | A program that multiplies two positive numbers. |
+| `File 0 - 0-object_like_macro.h` | A header file that defines a macro named SIZE as an abbreviation for the token 1024. |
+| `File 1 - 1-pi.h` | A header file that defines a macro named PI as an abbreviation for the token 3.14159265359. |
+| `File 2 - 2-main.c` | A program that prints the name of the file it was compiled from, followed by a new line. |
+| `File 3 - 3-function_like_macro.h` | A function-like macro ABS(x) that computes the absolute value of a number x. |
+| `File 4 - 4-sum.h` | A function-like macro SUM(x, y) that computes the sum of the numbers x and y. |

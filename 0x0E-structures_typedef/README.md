@@ -2,8 +2,12 @@
 
 | Project name | Description |
 | ------------ | ----------- |
-| `File 0 - 0-object_like_macro.h` | A header file that defines a macro named SIZE as an abbreviation for the token 1024. |
-| `File 1 - 1-pi.h` | A header file that defines a macro named PI as an abbreviation for the token 3.14159265359. |
-| `File 2 - 2-main.c` | A program that prints the name of the file it was compiled from, followed by a new line. |
-| `File 3 - 3-function_like_macro.h` | A function-like macro ABS(x) that computes the absolute value of a number x. |
-| `File 4 - 4-sum.h` | A function-like macro SUM(x, y) that computes the sum of the numbers x and y. |
+| `File 0_3 - dog.h` | A new type struct dog with the following elements:
+* name, type = char *
+* age, type = float
+* owner, type = char *. |
+| `File 1 - 1-init_dog.c` | A function that initialize a variable of type struct dog. |
+| `File 2 - 2-print_dog.c` | A function that prints a struct dog. |
+| `File 0_3 - dog.h` | A new type dog_t as a new name for the type struct dog. |
+| `File 4 - 4-new_dog.c` | A function that creates a new dog. |
+| `File 5 - 5-free_dog.c` | A function that frees dogs. |

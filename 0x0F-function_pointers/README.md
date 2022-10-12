@@ -1,13 +1,9 @@
-## C - more malloc, free
+## C - function pointers
 
 | Project name | Description |
 | ------------ | ----------- |
-| `File 0_3 - dog.h` | A new type struct dog with the following elements: |
-| | * name, type = char * |
-| | * age, type = float |
-| | * owner, type = char *. |
-| `File 1 - 1-init_dog.c` | A function that initialize a variable of type struct dog. |
-| `File 2 - 2-print_dog.c` | A function that prints a struct dog. |
-| `File 0_3 - dog.h` | A new type dog_t as a new name for the type struct dog. |
-| `File 4 - 4-new_dog.c` | A function that creates a new dog. |
-| `File 5 - 5-free_dog.c` | A function that frees dogs. |
+| `File 0 - 0-print_name.c` | A function that prints a name. |
+| `File 1 - 1-array_iterator.c` | A function that executes a function given as a parameter on each element of an array. |
+| `File 2 - 2-int_index.c` | A function that searches for an integer. |
+| `Files 3 - 3-main.c, 3-op_functions.c, 3-get_op_func.c, 3-calc.h` | A program that performs simple operations. |
+| `File 4 - 100-main_opcodes.c` | A program that prints the opcodes of its own main function. |

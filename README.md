@@ -20,3 +20,6 @@ All of the following folders are projects done during the studies:
 | [`0x09-static_libraries`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x09-static_libraries) | It aims to learn about Static libraries in **C language** |
 | [`0x0B-malloc_free`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x0B-malloc_free) | It aims to learn about Malloc & Free in **C language** |
 | [`0x0C-more_malloc_free`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x0C-more_malloc_free) | It aims to learn about Malloc & Free in **C language** |
+| [`0x0D-preprocessor`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x0D-preprocessor) | It aims to learn about Preprocessor in **C language** |
+| [`0x0E-structures_typedef`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x0E-structures_typedef) | It aims to learn about structures & typedef in **C language** |
+| [`0x0F-function_pointers`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x0F-function_pointers) | It aims to learn about function pointers in **C language** |

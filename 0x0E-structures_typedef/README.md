@@ -1,4 +1,4 @@
-## C - more malloc, free
+## C - structures, typedef
 
 | Project name | Description |
 | ------------ | ----------- |

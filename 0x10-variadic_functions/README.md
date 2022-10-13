@@ -1,13 +1,8 @@
-## C - structures, typedef
+## C - variadic functions
 
 | Project name | Description |
 | ------------ | ----------- |
-| `File 0_3 - dog.h` | A new type struct dog with the following elements: |
-| | * name, type = char * |
-| | * age, type = float |
-| | * owner, type = char *. |
-| `File 1 - 1-init_dog.c` | A function that initialize a variable of type struct dog. |
-| `File 2 - 2-print_dog.c` | A function that prints a struct dog. |
-| `File 0_3 - dog.h` | A new type dog_t as a new name for the type struct dog. |
-| `File 4 - 4-new_dog.c` | A function that creates a new dog. |
-| `File 5 - 5-free_dog.c` | A function that frees dogs. |
+| `File 0 - 0-sum_them_all.c` | A function that returns the sum of all its parameters. |
+| `File 1 - 1-print_numbers.c` | A function that prints numbers, followed by a new line. |
+| `File 2 - 2-print_strings.c` | A function that prints strings, followed by a new line. |
+| `File 3 - 3-print_all.c` | A function that prints anything. |

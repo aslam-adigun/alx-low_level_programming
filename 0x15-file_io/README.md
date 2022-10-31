@@ -2,11 +2,8 @@
 
 | Project name | Description |
 | ------------ | ----------- |
-| `File 0 - 0-binary_to_uint.c` | A function that converts a binary number to an unsigned int. |
-| `File 1 - 1-print_binary.c` | A function that prints the binary representation of a number. |
-| `File 2 - 2-get_bit.c` | A function that returns the value of a bit at a given index. |
-| `File 3 - 3-set_bit.c` | A function that sets the value of a bit to 1 at a given index. |
-| `File 4 - 4-clear_bit.c` | A function that sets the value of a bit to 0 at a given index. |
-| `File 5 - 5-flip_bits.c` | A function that returns the number of bits you would need to flip to get from one number to another. |
-| `File 6 - 100-get_endianness.c` | A function that checks the endianness. |
-| `File 7 - 101-password` | The password for the `CrackMe3` program. |
+| `File 0 - 0-read_textfile.c` | A function that reads a text file and prints it to the POSIX standard output. |
+| `File 1 - 1-create_file.c` | A function that creates a file. |
+| `File 2 - 2-append_text_to_file.c` | A function that appends text at the end of a file. |
+| `File 3 - 3-cp.c` | A program that copies the content of a file to another file. |
+| `File 4 - 100-elf_header.c` | A program that displays the information contained in the `ELF header at the start of an ELF file`. |

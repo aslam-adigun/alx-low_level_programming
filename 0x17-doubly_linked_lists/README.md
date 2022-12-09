@@ -1,4 +1,4 @@
-## C - bit manipulation
+## C - Doubly Linked Lists
 
 | Project name | Description |
 | ------------ | ----------- |

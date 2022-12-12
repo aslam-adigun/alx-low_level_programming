@@ -29,3 +29,4 @@ All of the following folders are projects done during the studies:
 | [`0x14-bit_manipulation`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x14-bit_manipulation) | It aims to learn about bit manipulation in **C language** |
 | [`0x15-file_io`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x15-file_io) | It aims to learn about file i/o in **C language** |
 | [`0x17-doubly_linked_lists`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x17-doubly_linked_lists) | It aims to learn about Doubly Linked Lists in **C language** |
+| [`0x18-dynamic_libraries`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x18-dynamic_libraries) | It aims to learn about Dynamic Libraries in **C language** |

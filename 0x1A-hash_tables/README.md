@@ -1,1 +1,1 @@
-## C - Dynamic Library
+## 0x1A. C - Hash tables

@@ -4,11 +4,10 @@
 
 | Filename | Description |
 | -------- | ----------- |
-| `0-hash_table_create.c` | Function that creates a hash table |
-| `1-djb2.c` | Function that executes the djb2 algorithm |
-| `2-key_index.c` | Function that returns the index of a key |
-| `3-hash_table.c` | Function that adds an element to the hash table |
-| `4-hash_table_get.c` | Function that retrieves a value associated with a key |
-| `5-hash_table_print.c` | Function that prints a hash table |
-| `6-hash_table_delete.c` | Function that deletes a hash table |
-| `100-sorted_hash_table.c` | C file with some functions that implements a hash table with a sorted linked list |
+| `0-Makefile` | Builds an executable with `all` rule |
+| `1-Makefile` | Builds an executable specifying a compiler and source files (`CC` and `SRC` variables) |
+| `2-Makefile` | Builds an executable using `CC`, `SRC`, `OBJ` and `NAME` variables |
+| `3-Makefile` | Builds an executable using `clean`, `oclean`, `fclean` and `re` rules, and `CC`, `SRC`, `OBJ`, `NAME` and `RM` variables |
+| `4-Makefile` | Builds an executable using `clean`, `oclean`, `fclean` and `re` rules, and `CC`, `SRC`, `OBJ`, `NAME`, `RM` and `CFLAGS` variables  |
+| `5-island_perimeter.py` | Function that returns the perimeter of an island described in `grid` list |
+| `100-Makefile` | Complete Makefile with all of the variables and rules previously mentioned |

@@ -32,3 +32,4 @@ All of the following folders are projects done during the studies:
 | [`0x18-dynamic_libraries`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x18-dynamic_libraries) | It aims to learn about Dynamic Libraries in **C language** |
 | [`0x1A-hash_tables`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x1A-hash_tables) | It aims to learn about Dynamic Libraries in **C language** |
 | [`0x1C-makefiles`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x1C-makefiles) | It aims to learn about Make Files in **C language** |
+| [`0x1E-search_algorithms`](https://github.com/aslam-adigun/alx-low_level_programming/tree/master/0x1E-search_algorithms) | It aims to learn about Search Algorithms in **C language** |
